@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.form{
+    text-align: center;
+    padding: 20px;
+}
+
+.form .input__text{
+    padding: 13px 50px; 
+}
+
+.form button{
+    padding: 10px; 
+    font-size: 18px;
+}
+
+.todo-list li {
+display: flex;
+width: 300px;
+margin: 0 auto;
+text-align: center;
+border: 1px solid;
+padding: 10px;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+.todo-list li p {
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.todo-list li input {
+    margin-right: 10px;
+}
+
+.todo-list li button {
+    font-size: 18px;
+}
+
